@@ -3,7 +3,7 @@ import axios from 'axios';
 
 export default function App(){
 
-  const [data, setData] = useState();
+  const [data, setData] = useState([]);
 
   function apiCalling(){
     axios.get('https://jsonplaceholder.typicode.com/todos')
